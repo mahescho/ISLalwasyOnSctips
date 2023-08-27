@@ -1,19 +1,10 @@
 <#
 #### requires ps-version 3.0 ####
-<#
+
 .SYNOPSIS
 Remoeves ISL AlwaysOn from a Windows machine.
 Warning: This script will remove all ISL AlwaysOn related files and folders and regstry keys from the system.
 See: https://help.islonline.com/20304/165996
- 
-.PARAMETER <Parameter_Name>
-<Brief description of parameter input required. Repeat this attribute if required>
- 
-.INPUTS
-<Inputs if any, otherwise state None>
- 
-.OUTPUTS
-<Outputs if anything is generated>
  
 .NOTES
    Version:        0.1

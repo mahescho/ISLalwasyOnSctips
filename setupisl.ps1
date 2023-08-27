@@ -1,6 +1,6 @@
 <#
 #### requires ps-version 3.0 ####
-<#
+
 .SYNOPSIS
 Installs ISL AlwaysOn on a Windows machine and configures it to use https.
 If an uninstall.ps1 script is found in the same directory as this script, it will be executed before installing the new version.
