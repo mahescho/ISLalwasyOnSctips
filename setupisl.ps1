@@ -58,7 +58,7 @@ if (Test-Path -Path $ini -ErrorAction SilentlyContinue) {
         $downloadURL = $ini["downloadURL"]
     }
     if ($ini.ContainsKey("islexec")) {
-        $islexec = $ini.islexec
+        $islexec = $ini["islexec"]
     }
 }
 
