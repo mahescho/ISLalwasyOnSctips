@@ -6,15 +6,15 @@ Scripts for managing ISL AlwaysOn
 
 ## Usage
 
-**Create a config.ps1 file**
+**Create a isl.ini file**
      
-Your download URL for the ISL AlwaysOn client has to be placed in a file as the setup script called "config.ps1". The content should look like this:
+Your download URL for the ISL AlwaysOn client has to be placed in a file as the setup script called "isl.ini". The content should look like this:
 
     $url = https://your.isl.server.com/download/ISLAlwaysOn?cmdline=%2FVERYSILENT+grant_password+%22H....... 
 
 The easiest way to create a working URL is using my PHP script: https://github.com/mahescho/ISLalwaysOnLinkGenerator
 
-If you don't want to or can't download ISL AlwaysOn while setup you can provide a setup binary instead by adding $islexec to "config.ps1":
+If you don't want to or can't download ISL AlwaysOn while setup you can provide a setup binary instead by adding $islexec to "isl.ini":
 
     $islexec = "ISLAlwaysOn.exe"
 
